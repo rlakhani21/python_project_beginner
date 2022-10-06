@@ -82,7 +82,7 @@ if ans.lower() == "yes":
     print(Back.CYAN+"What is the CEO of Microsoft ? : ")
     que2 = input(Fore.CYAN + Back.LIGHTMAGENTA_EX + Fore.RESET)
     que2 = que2.replace(" ", "")
-    if que2.lower() == "satyanadella" or que2.lower() == "sathya":
+    if que2.lower() == "sathyanadella" or que2.lower() == "sathya":
         print(Fore.GREEN+"correct")
         score += 1
     else:
@@ -116,7 +116,43 @@ tkmb.showinfo('passed','scoreis '+ str(total_score)+ "%")
   
 
 ```
+## For Linux
 
+
+To use it in linux just simply follow this steps 
+
+step 1 : go to your linux terminal 
+
+step 2: Go to your folder (example : Desktop)
+
+```linux terminal 
+
+cd Desktop
+
+```
+
+step 3: Clone the repository at your folder
+
+```linux terminal
+
+git clone https://github.com/rlakhani21/python_project_beginner.git
+
+
+```
+
+step 4: go to new folder 
+
+```linux terminal
+cd python_project_beginner
+```
+
+step 5: run the python file 
+
+```linux terminal
+
+python3 python_basic_word_game_1
+
+```
 
 ## Support
 
