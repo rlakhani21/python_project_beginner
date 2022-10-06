@@ -28,7 +28,7 @@ if ans.lower() == "yes":
     print(Back.CYAN+"What is the CEO of Microsoft ? : ")
     que2 = input(Fore.CYAN + Back.LIGHTMAGENTA_EX + Fore.RESET)
     que2 = que2.replace(" ", "")
-    if que2.lower() == "billgates" or que2.lower() == "bill":
+    if que2.lower() == "satyanadella" or que2.lower() == "satya":
         print(Fore.GREEN+"correct")
         score += 1
     else:
